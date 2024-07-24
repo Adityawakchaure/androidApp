@@ -52,5 +52,10 @@ fun page1(navController: NavController){
         Button(onClick = { navController.navigate(Route.page2) }) {
             Text(text = "Next")
         }
+        
+        Button(onClick = { /*TODO*/ }) {
+            Text(text = "nothing")
+            
+        }
     }
 }
